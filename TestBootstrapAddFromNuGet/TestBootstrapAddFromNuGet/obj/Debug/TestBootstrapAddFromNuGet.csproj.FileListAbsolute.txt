@@ -1,0 +1,6 @@
+D:\asp.net\24.1.2015\TestBootstrapAddFromNuGet\TestBootstrapAddFromNuGet\bin\TestBootstrapAddFromNuGet.dll.config
+D:\asp.net\24.1.2015\TestBootstrapAddFromNuGet\TestBootstrapAddFromNuGet\bin\TestBootstrapAddFromNuGet.dll
+D:\asp.net\24.1.2015\TestBootstrapAddFromNuGet\TestBootstrapAddFromNuGet\bin\TestBootstrapAddFromNuGet.pdb
+D:\asp.net\24.1.2015\TestBootstrapAddFromNuGet\TestBootstrapAddFromNuGet\obj\Debug\TestBootstrapAddFromNuGet.csprojResolveAssemblyReference.cache
+D:\asp.net\24.1.2015\TestBootstrapAddFromNuGet\TestBootstrapAddFromNuGet\obj\Debug\TestBootstrapAddFromNuGet.dll
+D:\asp.net\24.1.2015\TestBootstrapAddFromNuGet\TestBootstrapAddFromNuGet\obj\Debug\TestBootstrapAddFromNuGet.pdb

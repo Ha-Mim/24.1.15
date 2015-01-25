@@ -1,0 +1,6 @@
+D:\asp.net\24.1.2015\AngularJs\AngularJs\bin\AngularJs.dll.config
+D:\asp.net\24.1.2015\AngularJs\AngularJs\bin\AngularJs.dll
+D:\asp.net\24.1.2015\AngularJs\AngularJs\bin\AngularJs.pdb
+D:\asp.net\24.1.2015\AngularJs\AngularJs\obj\Debug\AngularJs.csprojResolveAssemblyReference.cache
+D:\asp.net\24.1.2015\AngularJs\AngularJs\obj\Debug\AngularJs.dll
+D:\asp.net\24.1.2015\AngularJs\AngularJs\obj\Debug\AngularJs.pdb

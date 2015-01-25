@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title of the document</title>
+</head>
+
+
+<body ng-controller="myController">
+    <div class="container" style="margin-top: 100px;">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="inputName" class="col-sm-2 control-label">Enter Name</label>
+                <div class="col-sm-10">
+                    <input type="text" ng-model="name" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail" class="col-sm-2 control-label">Enter Email</label>
+                <div class="col-sm-10">
+                    <input type="text" ng-model="email" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="button" ng-click="AddStudent(name,email)" class="btn btn-default">Add Student</button>
+                </div>
+            </div>
+            <p class="bg-primary">Total number Of Student: {{students.length}}</p>
+        </form>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Email</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="aStudent in students">
+                    <td>{{aStudent.Name}}</td>
+                    <td>{{aStudent.Email}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <script src="Scripts/angular.js"></script>
+    <script>
+        var studentInfo = [
+            { Name: "tapos", Email: "tapos.aa@gmail.com" },
+            { Name: "Mahadi", Email: "mahadi@gmail.com" },
+            { Name: "Akash", Email: "Akash@gmail.com" }
+        ];
+        var myApplication = angular.module("myApp", []);
+        myApplication.controller("myController", function ($scope) {
+            $scope.students = studentInfo;
+            $scope.AddStudent = function (name, email) {
+                $scope.students.push({ Name: name, Email: email });
+            };
+        });
+    </script>
+</body>
+
+</html>
